@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.2](https://github.com/prinsss/twitter-web-exporter/compare/v1.4.1..v1.4.2) - 2026-08-19
+
+### ⛰️  Features
+
+- Adapt to API changes on user profile pages - ([dfe5d02](https://github.com/prinsss/twitter-web-exporter/commit/dfe5d0280606c7c32c437ffad468e7a5dc54fc79))
+
 ## [1.4.1](https://github.com/prinsss/twitter-web-exporter/compare/v1.4.0..v1.4.1) - 2026-07-29
 
 ### ⛰️  Features
