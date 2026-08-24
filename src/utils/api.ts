@@ -175,7 +175,7 @@ export function isTimelineEntryProfileGrid(
 ): entry is TimelineEntry<TimelineTweet, TimelineTimelineModule<TimelineTweet>> {
   return (
     isTimelineEntryModule<TimelineTweet>(entry) &&
-    entry.entryId.startsWith('profile-grid-') &&
+    /^profile-(photo-)?grid-/.test(entry.entryId) &&
     Array.isArray(entry.content.items)
   );
 }

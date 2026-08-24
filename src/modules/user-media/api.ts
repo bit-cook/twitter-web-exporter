@@ -47,7 +47,8 @@ export const UserMediaInterceptor: Interceptor = (req, res, ext) => {
 
     // There are two types of instructions: "TimelineAddEntries" and "TimelineAddToModule".
     // For "Media", the "TimelineAddEntries" instruction initializes "profile-grid" module.
-    // Update 2026/08: The "Photos" and "Videos" tabs now return plain tweet entries.
+    // Update 2026/08: The "Videos" tab now returns plain tweet entries
+    // while the "Photos" tab renamed modules to "profile-photo-grid".
     const timelineAddEntriesInstruction = instructions.find(
       (i) => i.type === 'TimelineAddEntries',
     ) as TimelineAddEntriesInstruction<TimelineTweet>;
