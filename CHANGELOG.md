@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.4.3](https://github.com/prinsss/twitter-web-exporter/compare/v1.4.2..v1.4.3) - 2026-08-31
+
+### ⛰️  Features
+
+- Adapt to API changes for profile-photo-grid - ([3e07f1e](https://github.com/prinsss/twitter-web-exporter/commit/3e07f1e7ad7469c1bd6526b03bdcb90c495f25b1))
+
 ## [1.4.2](https://github.com/prinsss/twitter-web-exporter/compare/v1.4.1..v1.4.2) - 2026-08-19
 
 ### ⛰️  Features
